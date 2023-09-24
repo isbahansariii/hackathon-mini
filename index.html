@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Fiver</title>
+</head>
+
+<body>
+
+    <!-- Hero -->
+    <div class="hero">
+
+        <!-- Nav bar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Icon -->
+                <a class="navbar-brand col-6 icon-fiverr" href="#">fiverr</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mr=0 nav-br-list">
+
+                        <!-- Dropdown1 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Business Solution
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">dropdown</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Dropdown2 -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">dropdown</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-globe"></i> English</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Become a Seller</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sign in</a>
+                        </li>
+
+                        <button class="btn sm btn-outline" type="submit">Join</button>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Slider -->
+        <div class="slider row">
+            <div class="col-6 mt-5 slider-search">
+                <h1 class="mt-5">Find the right <i>freelance</i> service, right away</h1>
+                <div>
+                    <input type="text" name="search" class="btn" placeholder="Search for any service...">
+                    <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="mt-3">
+                    <h6>Popular: </h6>
+                    <button class="pop">Website Design</button>
+                    <button class="pop">WordPress</button>
+                    <button class="pop">Logo Design</button>
+                    <button class="pop">AI Services</button>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col slider-pic"></div>
+        </div>
+    </div>
+
+    <!-- END HERO -->
+    <button type="button" class="btn btn-light end-hero">
+        <p class="Trusted">Trusted by:</p>
+        <p>facebook</p>
+        <p>Google</p>
+        <p>NETFLIX</p>
+        <p>P&G</p>
+        <p>PayPal</p>
+    </button>
+
+    <!-- Content -->
+    <h1 class="cont">Popular services</h1>
+    <div id="content">
+
+        <div class="cont-box pointer" style="background-image: url('./images/ai-artists-.webp')">
+            <p>Add Talent to AI</p>
+            <h2>AI Artist</h2>
+        </div>
+
+        <div class="cont-box pointer" style="background-image: url('./images/logo-design-.webp')">
+            <p>Build your brand</p>
+            <h2>Logo Design</h2>
+        </div>
+
+        <div class="cont-box pointer" style="background-image: url('./images/wordpress-.webp')">
+            <p>Custimize your site</p>
+            <h2>WordPress</h2>
+        </div>
+
+        <div class="cont-box pointer" style="background-image: url('./images/voice-over-.webp')">
+            <p>Share your message</p>
+            <h2>Voice Over</h2>
+        </div>
+
+        <div class="cont-box pointer" style="background-image: url('./images/animated-explainer-.webp')">
+            <p>Engage your audiance</p>
+            <h2>Video Explainer</h2>
+        </div>
+
+    </div>
+
+    <!-- CONTENT-2 -->
+    <div id="content-2">
+        <div class="cont2-box1">
+            <h1>The best part? Everything.</h1>
+            <p>
+                <i class="fa-regular fa-circle-check"></i> Stick to your budget
+                <p>Find the right service for every price point. No hourly rates, just project-based pricing.</p>
+            </p>
+
+            <p>
+                <i class="fa-regular fa-circle-check"></i> Get quality work done quickly
+                <p>Hand your project over to a talented freelancer in minutes, get long-lasting results.</p>
+            </p>
+
+            <p>
+                <i class="fa-regular fa-circle-check"></i> Pay when you're happy
+                <p>Upfront quotes mean no surprises. Payments only get released when you approve.</p>
+            </p>
+
+            <p>
+                <i class="fa-regular fa-circle-check"></i> Count on 24/7 support
+                <p>Our round-the-clock support team is available to help anytime, anywhere.</p>
+            </p>
+        </div>
+        <div class="cont2-box2">
+            <video src="./images/vmvv3czyk2ifedefkau7.mp4" controls poster="./images/poster.webp"></video>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
